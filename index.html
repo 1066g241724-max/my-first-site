@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大山俊也のサイト</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js">
+        let jikan = new Date();
+        let hour = jikan.getHours();
+        let minute = jikan.getUTCMinutes();
+        let secound =jikan.getSeconds();
+        let year =jikan.getFullYear() - 2018;
+        let month = jikan.getMonth() + 1;
+        let date = jikan .getDate();
+        let weekday = jikan,getDate();
+        window,alert("今日は令和" + year + "年" + month + "月" + date + "日")
+        if (weekday == 5){
+            window.alert("今日は木曜日です")
+        } else{
+             window.alert("今日は木曜日ではありません")
+        }
+    　window.alert("ようこそ。現在は" + hour +　"時" + minute + "分" + secound + "秒です");
+    </script>
+</head>
+    <div id="header">
+        <h1>大山俊也のサイト</h1>
+    </div>
+    <div id="main">
+        <h2>見出し１</h2>
+        <p>ここに文章が入ります。</p>
+        <h2>見出し２</h2>
+        <p>ここに文章が入ります。</p>
+    </div>
+    <div id="footer">
+        <p>copyright (c) 2026 toshiya ooyama.All right reserved.</p>
+    </div>
+</body>
+</html>
